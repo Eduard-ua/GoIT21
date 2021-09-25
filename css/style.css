@@ -1,0 +1,160 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00000;
+    background-color: #F5F7FA;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    
+}
+
+.main-content {
+    order: 1;
+    padding: 100px 90px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* About me section */
+
+
+.about-me-section__suptitle {
+    line-height: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-me-section__title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 25px 0;
+}
+
+.about-me-section__description {
+    color: #595959;
+    max-width: 400px;
+}
+
+
+/* Project section */
+
+.main-content__section-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 40px 0 10px 0;
+}
+
+.projects-section__item{
+    font-weight: bold;
+}
+
+.projects-section__link,
+.projects-section__point,
+.projects-section__language {
+    color: #595959;
+    font-weight: normal;
+}
+
+.projects-section__link {
+    margin-left: 5px;
+}
+
+/* Work Experience */
+
+.work-section__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.work-section__place {
+    color: #FB6D3A;
+}
+
+.work-section__period {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.work-section__divider {
+ font-weight: bold;
+}
+
+.work-section__list {
+    padding: 0 0 0 20px;
+    color: #595959;
+}
+
+/* Education */
+.education-section__place {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.education-section__special {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 10px 0;
+}
+
+/*  Sidebar section   */
+.sidebar-section {
+    background-color: #1E2939;
+    color: #ffffff;
+    width: 370px;
+    padding: 50px 0;
+}
+
+.sidebar-section img{
+    width: 370px;
+    box-sizing: border-box;
+}
+
+.sidebar-section__container {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.sidebar-section__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+   /* Sidebar Contacts */
+.sidebar__contact-type {
+    margin-right: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sidebar__contact-link {
+    color: #80878F;
+}
+
+.sidebar-section__list {
+    padding-left: 20px;
+    
+}
+
+.sidebar-section__list-item {
+    color: #FB6D3A;
+}
+
+.sidebar-section__list-text {
+    color: #ffffff;
+}
+
